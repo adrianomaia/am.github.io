@@ -51,7 +51,19 @@ function App() {
         title={information.userData.title}
       />
       <div className="hr"></div>
+      <section id="education">
+        <Heading firstWord="My" secondWord="Education" />
+        <motion.div
+          className="education-map"
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={containerVariants}
+        >
 
+
+        </motion.div>
+      </section>
       <section id="projects">
         <Heading firstWord="My" secondWord="Projects" />
         <motion.div
