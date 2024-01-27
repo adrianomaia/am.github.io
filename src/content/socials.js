@@ -1,20 +1,16 @@
 const socials = [
   {
     icon: "github.svg",
-    url: "https://github.com/randilt",
+    url: "https://github.com/adrianomaia",
   },
   {
     icon: "linkedin.svg",
-    url: "https://www.linkedin.com/in/randiltharusha/",
+    url: "https://www.linkedin.com/in/adriano-maia-a218b810a/",
   },
   {
-    icon: "instagram.svg",
-    url: "https://www.instagram.com/itz_toxic03/",
-  },
-  {
-    icon: "facebook.svg",
-    url: "https://facebook.com/profile.php?id=100089910035602",
-  },
+    icon: "vocal.svg",
+    url: "https://vocal.media/authors/adriano-maia",
+  }
 ];
 
 export default socials;

@@ -2,7 +2,7 @@
 @import url("https://fonts.cdnfonts.com/css/technology?styles=26651");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 :root {
-  --glow-color: hsl(12, 100%, 69%);
+  --glow-color: hsl(217, 93%, 56%);
 }
 * {
   padding: 0;
@@ -54,7 +54,7 @@ body {
   top: 0;
   width: 100%;
   background: rgba(33, 37, 41, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -78,7 +78,7 @@ nav {
 }
 
 .logo a span {
-  color: #fa3939;
+  color: #2676f7;
 }
 
 .menu {
@@ -122,7 +122,7 @@ nav {
   .menu {
     flex-direction: column;
     background: rgba(5, 0, 0, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -196,7 +196,7 @@ nav {
 footer {
   background: rgba(33, 37, 41, 0.8);
 
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -219,7 +219,7 @@ footer {
   text-align: center;
 }
 .heading h1 span {
-  color: #fa3939;
+  color: #2676f7;
 }
 @media (max-width: 768px) {
   .heading h1 {
@@ -247,7 +247,7 @@ footer {
   margin: 20px 50px;
   padding: 18px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -308,7 +308,7 @@ footer {
   justify-content: center;
   align-items: center;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -347,7 +347,7 @@ footer {
 .hero-socials a {
   padding: 10px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -368,7 +368,7 @@ form {
   margin: 30px;
   margin-right: 50px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -403,8 +403,8 @@ form > input[type="submit"] {
 }
 
 form > input[type="submit"]:hover {
-  background-color: #c70a0a;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  background-color: #5d091e;
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
 }
 .contact-section {
   margin-top: 20px;
@@ -421,7 +421,7 @@ form > input[type="submit"]:hover {
   height: 100%;
   padding: 50px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -492,15 +492,15 @@ form > input[type="submit"]:hover {
 }
 .navbar-btn {
   padding: 10px;
-  background-color: #fa3939;
+  background-color: #2676f7;
   border-radius: 10px;
   transition: 0.2s all ease-in-out;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
 }
 .navbar-btn:hover {
   transform: scale(1.1);
-  background-color: #f10505;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.8);
+  background-color: #5d091e;
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
 }
 .wrapper {
   width: auto;
@@ -517,12 +517,12 @@ form > input[type="submit"]:hover {
 
 #typed {
   font-weight: bold;
-  color: #fa3939;
+  color: #2676f7;
 }
 
 .cursor {
   display: inline-block;
-  background-color: #fa3939;
+  background-color: #2676f7;
   animation: blinker 800ms infinite;
 }
 
@@ -532,13 +532,13 @@ form > input[type="submit"]:hover {
 
 @keyframes blinker {
   0% {
-    background-color: #fa3939;
+    background-color: #2676f7;
   }
   50% {
     background-color: transparent;
   }
   100% {
-    background-color: #fa3939;
+    background-color: #2676f7;
   }
 }
 #blog {
@@ -572,16 +572,16 @@ form > input[type="submit"]:hover {
   font-size: 30px;
   margin-top: 30px;
   padding: 10px;
-  background-color: #fa3939;
+  background-color: #2676f7;
   border-radius: 10px;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);;
   margin-bottom: 20px;
   transition: 0.2s all ease-in-out;
 }
 .cyber-scourge:hover {
   transform: scale(1.1);
-  background-color: #f10505;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.8);
+  background-color: #5d091e;
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);;
 }
 .hero-typewriter {
   display: flex;
@@ -593,11 +593,15 @@ form > input[type="submit"]:hover {
   font-size: 40px;
 }
 .typewriter-wrapper span {
-  color: #fa3939;
+  color: #2676f7;
 }
 .Typewriter__wrapper {
-  color: #fa3939;
+  color: #2676f7;
   font-weight: 700;
+}
+#emailForm{
+  text-decoration: none;
+  color: #2676f7;
 }
 @media (max-width: 768px) {
   .Typewriter__wrapper,

@@ -33,7 +33,7 @@ const Hero = (props) => {
           options={{
             strings: [
               "A Father",
-              "An Husband", 
+              "A Husband", 
               "A Tech Enthusiast",
               "A Sports Enthusiast",
               "A Learner",
