@@ -182,6 +182,7 @@ nav {
 .pfp img {
   max-width: 150px;
   border-radius: 50%;
+  box-shadow: 0 8px 32px 0 #2676f7;
 }
 /* hero styles end */
 
@@ -562,6 +563,55 @@ form > input[type="submit"]:hover {
 .post-card {
   margin-top: 0;
 }
+
+/*#region education*/
+
+.education-card {
+  width: 310px;
+  height: 550px;
+  margin: 20px 50px;
+  padding: 18px;
+  background: rgba(5, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(248, 245, 244, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border-radius: 15px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+.education-card:hover {
+  transform: scale(1.05);
+}
+.education-card img {
+  width: 100%;
+  height: 200px;
+
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.education-map {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.education-school h2,
+.education-area p {
+  text-align: center;
+}
+.education-school h2 {
+  font-size: 30px;
+}
+.education-tag p {
+  padding: 8px;
+  background: rgba(234, 3, 3, 0.3);
+  width: fit-content;
+  border-radius: 10px;
+}
+
+/*#endregion education*/
 
 /* .project-title .post-title {
   font-size: 15px;

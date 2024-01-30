@@ -1,6 +1,7 @@
 const eduaction = [
     {
         schoolName : "ESCT",
+        schoolImage: "../esct.jpg",
         location: "Caldas das Taipas",
         country: "Portugal",
         area: "Economics",
@@ -9,6 +10,7 @@ const eduaction = [
     }, 
     {
         schoolName : "University of Minho",
+        schoolImage: "",
         location: "Guimarães",
         country: "Portugal",
         area: "Information Systems",
@@ -16,3 +18,5 @@ const eduaction = [
         degree: "Major" 
     }
 ];
+
+export default eduaction;

@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import Heading from "./components/Heading";
 import projects from "./content/projects";
+import education from "./content/education";
 import Skill from "./components/Skill";
 import skills from "./content/skills";
 import { motion, useAnimation } from "framer-motion";
@@ -14,6 +15,7 @@ import { useEffect } from "react";
 import blogPosts from "./content/blogPosts";
 import ContactForm from "./components/ContactForm";
 import BlogPost from "./components/BlogPost";
+import EducationCard from "./components/EducationCards";
 
 function App() {
   const controls = useAnimation();
@@ -60,8 +62,15 @@ function App() {
           animate={controls}
           variants={containerVariants}
         >
-
-
+        {education.map((education, index) => (
+            <div key={index}>
+              <EducationCard
+                schoolName={education.schoolName}
+                schoolImage={education.schoolImage}
+                area={education.area}
+              />
+            </div>
+          ))}
         </motion.div>
       </section>
       <section id="projects">

@@ -8,19 +8,6 @@ const Hero = (props) => {
   return (
     <div className="container">
       <motion.div
-        initial={{ scale: 0 }}
-        animate={{ rotate: 360, scale: 1 }}
-        transition={{
-          type: "spring",
-          stiffness: 260,
-          damping: 20,
-        }}
-        whileHover={{ scale: 1.3, rotate: 10 }}
-        whileTap={{
-          scale: 0.8,
-          rotate: -90,
-          borderRadius: "100%",
-        }}
         className="pfp"
       >
         <img src={props.img} alt="" />
