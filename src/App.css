@@ -597,12 +597,28 @@ form > input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
 }
-.education-school h2,
-.education-area p {
-  text-align: center;
+
+.education-schoolLink a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+
+  color: white;
 }
-.education-school h2 {
-  font-size: 30px;
+
+.education-dissertation a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  color: #5d091e;
+}
+
+.education-area, 
+.education-degree,
+.education-location,
+.education-dissertation {
+  font-size: 20px;
+  margin-top: 20px;
 }
 .education-tag p {
   padding: 8px;

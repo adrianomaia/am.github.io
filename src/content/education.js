@@ -6,16 +6,19 @@ const eduaction = [
         country: "Portugal",
         area: "Economics",
         link : "https://esct.pt/",
-        type: null
+        degree: null,
+        dissertationLink: null
     }, 
     {
         schoolName : "University of Minho",
-        schoolImage: "",
+        schoolImage: "../uminho.jpg",
         location: "Guimarães",
         country: "Portugal",
         area: "Information Systems",
-        link : "https://esct.pt/",
-        degree: "Major" 
+        link : "https://www.uminho.pt/",
+        degree: "Major",
+        dissertationLink: "https://repositorium.sdum.uminho.pt/bitstream/1822/59321/1/Adriano%20Rafael%20Rodrigues%20Faria%20Maia.pdf"
+
     }
 ];
 

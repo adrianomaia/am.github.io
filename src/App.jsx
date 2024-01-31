@@ -68,6 +68,11 @@ function App() {
                 schoolName={education.schoolName}
                 schoolImage={education.schoolImage}
                 area={education.area}
+                link={education.link}
+                degree={education.degree}
+                location={education.location}
+                country={education.country}
+                dissertationLink={education.dissertationLink}
               />
             </div>
           ))}
