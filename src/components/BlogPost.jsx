@@ -23,14 +23,6 @@ const BlogPost = (props) => {
           Read More <FaExternalLinkAlt />
         </a>
       </div>
-
-      {/* <div className="project-tags">
-        <div className="project-tag">
-          {projects.stack.map((project, index) => (
-            <p key={index}>hello</p>
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 };

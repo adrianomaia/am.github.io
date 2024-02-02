@@ -78,6 +78,7 @@ function App() {
           ))}
         </motion.div>
       </section>
+      {/*
       <section id="projects">
         <Heading firstWord="My" secondWord="Projects" />
         <motion.div
@@ -100,6 +101,7 @@ function App() {
           ))}
         </motion.div>
       </section>
+          */}
       <section id="skills">
         <Heading firstWord="Skills" secondWord="&Tools" />
         <motion.div
@@ -118,6 +120,7 @@ function App() {
       </section>
       <section id="blog">
         <Heading firstWord="My" secondWord="Blog" />
+        {blogPosts.length > 0 ?
         <div className="posts">
           {blogPosts.map((post, index) => (
             <BlogPost
@@ -129,9 +132,10 @@ function App() {
             />
           ))}
         </div>
-        <a className="cyber-scourge" href="https://blog.randiltharusha.me">
+        /*<a className="cyber-scourge" href="">
           View More Posts
-        </a>
+          </a>*/
+        : <p>Aqui teste</p>}
       </section>
       <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
