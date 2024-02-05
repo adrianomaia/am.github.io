@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.cdnfonts.com/css/technology?styles=26651");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 :root {
   --glow-color: hsl(217, 93%, 56%);
 }
@@ -207,6 +208,8 @@ footer {
 
   bottom: 0;
   width: 100%;
+
+  margin-top: 10px;
 }
 .footer p {
   font-family: "Share Tech Mono", monospace;
@@ -683,7 +686,13 @@ form > input[type="submit"]:hover {
   cursor: pointer;
 }
 
-.comingsoon-area img {
+.comingsoon-area-column{
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.comingsoon-area-column img {
   margin-top: 15px;
   width: 100%;
   height: auto;
@@ -697,4 +706,30 @@ form > input[type="submit"]:hover {
 -ms-transform: scale(0.8);
 transform: scale(0.8);
 transition: 1s ease;
+}
+
+.comingsoon-area:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 992px) {
+  .comingsoon-area-column {
+    width: 100%;
+    float: center;
+  }
+
+  .comingsoon-area-column > .hero-typewriter {
+    max-height: auto;
+  }
+
+  .comingsoon-area-column > img {
+    max-height: auto;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }

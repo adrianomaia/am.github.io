@@ -7,24 +7,28 @@ const ComingSoon = () => {
     // };
     return (
         <div className="comingsoon-area">
-            <img class="" src="../watch.png" al="coming-soon" />
-            <div className="hero-typewriter">
-                <h3>Coming Soon!</h3>
-                <Typewriter
-                    options={{
-                    strings: [
-                    "Tech news!",
-                    "Exercises", 
-                    "Hands on examples",
-                    "Languages introductions", 
-                    "Updates overviews!",
-                    "And more...",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                }}
-                className="typewriter"
-                />
+            <div className="comingsoon-area-column">
+                <img class="" src="../watch.png" al="coming-soon" />
+            </div>
+            <div className="comingsoon-area-column">
+                <div className="hero-typewriter">
+                    <h3>Coming Soon!</h3>
+                    <Typewriter
+                        options={{
+                        strings: [
+                        "Tech news!",
+                        "Exercises", 
+                        "Hands on examples",
+                        "Languages introductions", 
+                        "Updates overviews!",
+                        "And more...",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                    className="typewriter"
+                    />
+                </div>
             </div>
         </div>
     );
