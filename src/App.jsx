@@ -16,6 +16,7 @@ import blogPosts from "./content/blogPosts";
 import ContactForm from "./components/ContactForm";
 import BlogPost from "./components/BlogPost";
 import EducationCard from "./components/EducationCards";
+import ComingSoon from "./components/ComingSoon";
 
 function App() {
   const controls = useAnimation();
@@ -135,7 +136,7 @@ function App() {
         /*<a className="cyber-scourge" href="">
           View More Posts
           </a>*/
-        : <p>Aqui teste</p>}
+        : <ComingSoon />}
       </section>
       <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
