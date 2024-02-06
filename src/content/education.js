@@ -1,7 +1,7 @@
 const eduaction = [
     {
         schoolName : "ESCT",
-        schoolImage: "../esct.jpg",
+        schoolImage: "../cv-portfolio/esct.jpg",
         location: "Caldas das Taipas",
         country: "Portugal",
         area: "Economics",
@@ -11,7 +11,7 @@ const eduaction = [
     }, 
     {
         schoolName : "University of Minho",
-        schoolImage: "../uminho.jpg",
+        schoolImage: "../cv-portfolio/uminho.jpg",
         location: "Guimarães",
         country: "Portugal",
         area: "Information Systems",

@@ -8,7 +8,7 @@ const ComingSoon = () => {
     return (
         <div className="comingsoon-area">
             <div className="comingsoon-area-column">
-                <img class="" src="../watch.png" al="coming-soon" />
+                <img class="" src="../cv-portfolio/watch.png" al="coming-soon" />
             </div>
             <div className="comingsoon-area-column">
                 <div className="hero-typewriter">

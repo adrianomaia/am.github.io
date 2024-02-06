@@ -4,7 +4,7 @@ const userData = {
   firstName: "<Adriano",
   lastName: "Maia/>",
   title: "About Me",
-  img: "../profilePic.jpg",
+  img: "../cv-portfolio/profilePic.jpg",
   description:
     `
     Hey there! 👋 I'm Adriano, a Software Engineering from Portugal. 
